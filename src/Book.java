@@ -27,7 +27,6 @@ public class Book {
         if (o == null || this.getClass() != o.getClass()) return false;
         Book book = (Book) o;
         return  publishYear == book.publishYear && Objects.equals(bookName, book.bookName) && Objects.equals(author, book.author);
-
     }
 
     public int hashCode() {
