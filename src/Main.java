@@ -9,7 +9,6 @@ public class Main {
         firstBook.setPublishYear(2020);
         System.out.println(firstBook.getPublishYear());
 
-
         System.out.println("Authors:");
         Author stephenKing = new Author("Stephen", "King");
         Author stephenKing2 =new Author("Stephen","King");
